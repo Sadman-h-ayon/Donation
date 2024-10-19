@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                bg1: '#F9F7F3',
+                btn1: '#B4F461'
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <section class="text-black">
+            <div class="navbar bg-bg1 px-10 py-8">
+                <div class="navbar-start">
+                  <div class="">
+                        <button class="btn btn-primary bg-btn1 border border-none">Button</button>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                  <img class="pr-2" src="./assets/logo.png" alt="">
+                  <p class="text-xl">
+                    Donate <br class="block sm:hidden">Bangladesh
+                  </p>
+                </div>
+                <div class="navbar-end">
+                  <img src="./assets/coin.png" alt="">
+                  <p>5500</p>
+                  <p>BDT</p>
+                </div>
+              </div>
+            <div class="flex justify-center py-8 bg-white">
+                <button class="btn btn-primary bg-btn1 mr-5">Donation</button>
+                <button class="btn btn-outline text-black">Default</button>
+            </div>
+        </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
