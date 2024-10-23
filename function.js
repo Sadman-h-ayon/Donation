@@ -99,7 +99,7 @@ function updateDonationHistory(amount, cause) {
     const historyElement = document.getElementById("amount-history");
     
     const newHistoryEntry = `
-        <div class="my-8 mx-auto w-3/4 border bg-white rounded p-4 my-4">
+        <div class="my-16 mx-auto w-3/4 border bg-white rounded p-4">
             <p class="font-bold text-black">${amount} Taka is Donated for ${cause}</p>
             <p class="text-sm text-gray-500">Date: ${getCurrentDateTime()} (Bangladesh Standard Time)</p>
         </div>
