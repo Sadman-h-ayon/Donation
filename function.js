@@ -1,5 +1,5 @@
 
-//funciton.js
+
 function getCurrentDonation1() {
     const donationText = document.getElementById("donation-1").innerText;
     return parseFloat(donationText);
@@ -94,7 +94,7 @@ function getCurrentDateTime() {
 
     return bangladeshTime.toString();
 }
-// Function to update the donation history section with a new entry
+// History
 function updateDonationHistory(amount, cause) {
     const historyElement = document.getElementById("amount-history");
     
@@ -105,7 +105,7 @@ function updateDonationHistory(amount, cause) {
         </div>
     `;
 
-    // Append the new history entry safely without replacing previous content
+   
     historyElement.insertAdjacentHTML('beforeend', newHistoryEntry);
 }
 
